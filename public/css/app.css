@@ -10993,6 +10993,81 @@ nav.row ul.col-10 li:hover {
   background-size: cover;
 }
 
+.first-f {
+  height: 385px;
+  background-image: url("/images/footer-bg.jpg");
+  overflow: hidden;
+}
+
+.first-f .row .col-logo {
+  height: 385px;
+}
+
+.first-f .row .col-logo .img-footer {
+  height: 100%;
+}
+
+.first-f .row .col-logo .img-footer img {
+  height: 100%;
+  transform: scale(110%);
+}
+
+.first-f .col ul {
+  padding-top: 35px;
+}
+
+.first-f .col ul li:first-child {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.first-f .col ul li a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.first-f .col ul li a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.second-f {
+  height: 110px;
+  background-color: #303030;
+}
+
+.second-f .container {
+  height: 100%;
+}
+
+.second-f .container .row {
+  height: 100%;
+}
+
+.second-f .container .row .social li {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.second-f .container .row .social li:hover {
+  cursor: pointer;
+}
+
+.second-f .container .row .social li:first-child {
+  color: #0282F9;
+  font-weight: bold;
+}
+
+.second-f .signup {
+  padding: 10px;
+  border: 4px solid #0282F9;
+  color: #fff;
+  background: none;
+}
+
 .main-bg {
   height: 200px;
   background-color: #002;

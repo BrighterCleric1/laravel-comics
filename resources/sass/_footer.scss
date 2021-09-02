@@ -1,0 +1,69 @@
+.first-f {
+    height: 385px;
+    background-image: url("/images/footer-bg.jpg");
+    overflow: hidden;
+    .row {
+      .col-logo {
+        height: 385px;
+        .img-footer {
+          height: 100%;
+          img {
+            height: 100%;
+            transform: scale(110%);
+          }
+        }
+      }
+    }
+    .col {
+      ul {
+        padding-top: 35px;
+        li {
+          &:first-child {
+            color: white;
+            font-weight: bold;
+            margin-bottom: 12px;
+          }
+          a {
+            color: #bbb;
+            text-decoration: none;
+            font-size: 12px;
+            &:hover {
+              cursor: pointer;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+  .second-f {
+    height: 110px;
+    background-color: #303030;
+    .container{
+        height: 100%;
+        .row {
+            height: 100%;
+          .social {
+            li {
+              display: flex;
+              align-items: center;
+              margin: 0 10px;
+              &:hover {
+                cursor: pointer;
+              }
+              &:first-child {
+                color: $blue;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+      .signup {
+        padding: 10px;
+        border: 4px solid $blue;
+        color: #fff;
+        background: none;
+      }
+    }
+    
