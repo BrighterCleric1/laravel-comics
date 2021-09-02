@@ -10942,3 +10942,54 @@ a.text-dark:focus {
   }
 }
 
+.row-blue {
+  height: 30px;
+  background-color: #0282F9;
+  font-size: 8px;
+  color: #fff;
+}
+
+.row-blue .container .max {
+  height: 30px;
+}
+
+.logo-img {
+  transform: scale(80%);
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+nav.row {
+  height: 115px;
+}
+
+nav.row ul.col-10 {
+  display: flex;
+  color: #464646;
+  height: 115px;
+  align-items: center;
+}
+
+nav.row ul.col-10 li {
+  line-height: 115px;
+  height: 100%;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+nav.row ul.col-10 li:hover {
+  cursor: pointer;
+  color: #0282F9;
+  border-bottom: 4px solid #0282F9;
+}
+
+.jumbo {
+  height: 300px;
+  background-image: url("/images/jumbotron.jpg");
+  background-size: cover;
+}
+

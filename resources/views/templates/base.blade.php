@@ -10,5 +10,13 @@
 </head>
 <body>
     
+    <header>
+        @include('templates.header')
+    </header>
+    <main>
+        @yield('content')
+    </main>
+
+
 </body>
 </html>
