@@ -16,6 +16,7 @@
             <img src="/images/dc-logo.png" alt="">
         </div>
         <ul class="col-10 justify-content-end">
+            <a href="{{ route('serie') }}">PIPPO</a>
             <li>CHARACTERS</li>
             <li>COMICS</li>
             <li>MOVIES</li>
