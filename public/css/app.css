@@ -10945,12 +10945,12 @@ a.text-dark:focus {
 .row-blue {
   height: 30px;
   background-color: #0282F9;
-  font-size: 8px;
-  color: #fff;
 }
 
 .row-blue .container .max {
   height: 30px;
+  font-size: 8px;
+  color: #fff;
 }
 
 .logo-img {
@@ -10991,5 +10991,64 @@ nav.row ul.col-10 li:hover {
   height: 300px;
   background-image: url("/images/jumbotron.jpg");
   background-size: cover;
+}
+
+.main-bg {
+  height: 200px;
+  background-color: #002;
+}
+
+.main-bg .container {
+  position: relative;
+}
+
+.main-bg .container .current {
+  position: absolute;
+  color: white;
+  height: 40px;
+  top: -20px;
+  background-color: #0282F9;
+  padding: 10px;
+}
+
+.buttons-pref {
+  height: 150px;
+  background-color: #0282F9;
+}
+
+.buttons-pref .container ul {
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons-pref .container ul li {
+  line-height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.buttons-pref .container ul li .button-link {
+  margin: 0 10px;
+}
+
+.buttons-pref .container ul li .button-link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.buttons-pref .container ul li .button-link a:hover {
+  text-decoration: underline;
+}
+
+.buttons-pref .container ul li .button-img {
+  display: flex;
+  align-items: center;
+}
+
+.buttons-pref .container ul li img {
+  height: 55px;
 }
 

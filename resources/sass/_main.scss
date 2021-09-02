@@ -1,0 +1,51 @@
+.main-bg{
+  height: 200px;
+  background-color: #002;
+  .container {
+    position: relative;
+    .current {
+      position: absolute;
+      color: white;
+      height: 40px;
+      top: -20px;
+      background-color: $blue;
+      padding: 10px;
+    }
+  }
+}
+
+.buttons-pref {
+    height: 150px;
+    background-color: $blue;
+    .container {
+      ul {
+        font-family: "Open Sans", sans-serif;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        li {
+          line-height: 150px;
+          display: flex;
+          align-items: center;
+          .button-link {
+            margin: 0 10px;
+            a {
+              text-decoration: none;
+              color: #fff;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+          .button-img {
+            display: flex;
+            align-items: center;
+          }
+          img {
+            height: 55px;
+          }
+        }
+      }
+    }
+  }
