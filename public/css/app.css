@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
@@ -11125,5 +11125,11 @@ nav.row ul.col-10 li:hover {
 
 .buttons-pref .container ul li img {
   height: 55px;
+}
+
+header,
+footer,
+main {
+  font-family: "Open Sans", sans-serif;
 }
 
