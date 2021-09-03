@@ -11074,7 +11074,7 @@ nav.row ul.col-10 li.active {
 }
 
 .main-bg {
-  background-color: #212121;
+  background-color: #1C1C1C;
 }
 
 .main-bg .container {
@@ -11166,6 +11166,43 @@ nav.row ul.col-10 li.active {
 .row-blue-2 {
   height: 30px;
   background-color: #0282F9;
+}
+
+.row-product {
+  margin-top: 50px;
+}
+
+.row-product .comic-title {
+  text-transform: uppercase;
+  color: #003F5E;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.row-product .green-button {
+  background-color: #55BA59;
+  height: 50px;
+  border: 1px solid #357739;
+}
+
+.row-product .border-l {
+  border-left: 1px solid #357739;
+}
+
+.row-product .description {
+  color: #555555;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.buy-avb.row {
+  margin: 0;
+}
+
+.buy-avb.row .col-9,
+.buy-avb.row .col-3 {
+  color: #fff;
 }
 
 header,
