@@ -10987,6 +10987,11 @@ nav.row ul.col-10 li:hover {
   border-bottom: 4px solid #0282F9;
 }
 
+nav.row ul.col-10 li.active {
+  color: #0282F9;
+  border-bottom: 4px solid #0282F9;
+}
+
 .jumbo {
   height: 300px;
   background-image: url("/images/jumbotron.jpg");
@@ -11103,6 +11108,11 @@ nav.row ul.col-10 li:hover {
   color: #fff;
 }
 
+.comic-link:hover {
+  -webkit-text-decoration-color: #fff;
+          text-decoration-color: #fff;
+}
+
 .load-more {
   width: 100%;
   height: 30px;
@@ -11151,6 +11161,11 @@ nav.row ul.col-10 li:hover {
 
 .buttons-pref .container ul li img {
   height: 55px;
+}
+
+.row-blue-2 {
+  height: 30px;
+  background-color: #0282F9;
 }
 
 header,

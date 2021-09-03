@@ -20,6 +20,11 @@ Route::get('/', function () {
     ]);
 })->name('homepage');
 
-Route::get('/product', function () {
-    return view('product');
+Route::get('/product/{id}', function ($id) {
+    $arrayIndex = $id - 1;
+    $comics = config('comics');
+    return view('product', [
+        "arrayIndex" => $arrayIndex,
+        "comics" => $comics
+    ]);
 })->name('serie');

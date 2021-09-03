@@ -9,14 +9,16 @@
           <div class="row row-comics">
             @foreach($comics as $comic)
               <div class="col-2">
-                <div class="inner-comic">
-                  <div class="comic-img">
-                    <img src="{{ $comic['thumb'] }}" alt="">
+                <a class="comic-link" href="{{ route('serie', ['id' => $loop->iteration ]) }}">
+                  <div class="inner-comic">
+                    <div class="comic-img">
+                      <img src="{{ $comic['thumb'] }}" alt="">
+                    </div>
+                    <div class="details">
+                      <span>{{ $comic['title'] }}</span>
+                    </div>
                   </div>
-                  <div class="details">
-                    <span>{{ $comic['title'] }}</span>
-                  </div>
-                </div>
+                </a>  
               </div>
             @endforeach
           </div>

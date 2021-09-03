@@ -37,6 +37,11 @@ nav.row{
                 color: $blue;
                 border-bottom: 4px solid $blue;
             }
+            &.active{
+                color: $blue;
+                border-bottom: 4px solid $blue;
+
+            }
 
         }
 
