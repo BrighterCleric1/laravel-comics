@@ -5,9 +5,34 @@
 
     <div class="main-bg">
         <div class="container">
-            <div class="current">CURRENT SERIES</div>
+          <div class="current">CURRENT SERIES</div>
+          <div class="row row-comics">
+            @foreach($comics as $comic)
+              <div class="col-2">
+                <div class="inner-comic">
+                  <div class="comic-img">
+                    <img src="{{ $comic['thumb'] }}" alt="">
+                  </div>
+                  <div class="details">
+                    <span>{{ $comic['title'] }}</span>
+                  </div>
+                </div>
+              </div>
+            @endforeach
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-2">
+              <button class="load-more">LOAD MORE</button>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
+
+
+
+
+
+
     <div class="buttons-pref">
     <div class="container">
       <ul>

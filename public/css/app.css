@@ -11069,8 +11069,7 @@ nav.row ul.col-10 li:hover {
 }
 
 .main-bg {
-  height: 200px;
-  background-color: #002;
+  background-color: #212121;
 }
 
 .main-bg .container {
@@ -11084,6 +11083,33 @@ nav.row ul.col-10 li:hover {
   top: -20px;
   background-color: #0282F9;
   padding: 10px;
+}
+
+.row-comics {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.row-comics .inner-comic {
+  padding: 15px;
+}
+
+.row-comics .inner-comic .comic-img img {
+  width: 100%;
+}
+
+.row-comics .inner-comic .details {
+  margin-top: 10px;
+  color: #fff;
+}
+
+.load-more {
+  width: 100%;
+  height: 30px;
+  background-color: #0282F9;
+  color: #fff;
+  border-style: none;
+  margin-bottom: 20px;
 }
 
 .buttons-pref {

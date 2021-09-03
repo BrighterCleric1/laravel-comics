@@ -1,6 +1,6 @@
 .main-bg{
-  height: 200px;
-  background-color: #002;
+
+  background-color: #212121;
   .container {
     position: relative;
     .current {
@@ -13,6 +13,38 @@
     }
   }
 }
+
+.row-comics{
+  padding-top: 100px;
+  padding-bottom: 40px;
+  .inner-comic{
+    padding: 15px;
+    .comic-img{
+      img{
+        width: 100%;
+      }
+    }
+    .details{
+      margin-top: 10px;
+      color: #fff;
+    }
+  }
+}
+
+.load-more{
+  width: 100%;
+  height: 30px;
+  background-color: $blue;
+  color: #fff;
+  border-style: none;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
 
 .buttons-pref {
     height: 150px;

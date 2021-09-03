@@ -27,7 +27,9 @@
             <li>FANS</li>
             <li>NEWS</li>
             <li>SHOP</li>
-            <li>SEARCH</li>
+            <li class="search-li">
+                <!--<input type="text" class="search"> Search-->
+            </li>
         </ul>
     </nav>
 </div>
