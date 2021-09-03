@@ -11205,9 +11205,50 @@ nav.row ul.col-10 li.active {
   color: #fff;
 }
 
+.inner-pub img {
+  width: 100%;
+}
+
+.selected-comic {
+  position: absolute;
+  top: -270px;
+  left: 300px;
+}
+
+.selected-comic .inner-selected {
+  position: relative;
+}
+
+.selected-comic .inner-selected .type {
+  position: absolute;
+  background-color: #00A9D9;
+  top: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1px 5px;
+}
+
+.selected-comic .inner-selected .view-gallery {
+  position: absolute;
+  background-color: #00A9D9;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.artists,
+.writers {
+  font-size: 10px;
+}
+
 header,
 footer,
 main {
   font-family: "Open Sans", sans-serif;
+}
+
+main {
+  position: relative;
 }
 

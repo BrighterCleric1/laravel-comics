@@ -18,7 +18,9 @@
         <ul class="col-10 justify-content-end">
             {{--<a href="{{ route('serie') }}">PIPPO</a>--}}
             <li>CHARACTERS</li>
-            <li class="{{ Request::route()->getName() === 'homepage' ? 'active' : '' }}">COMICS</li>
+            <li class="{{ Request::route()->getName() === 'homepage' ? 'active' : '' }}">
+                COMICS
+            </li>
             <li>MOVIES</li>
             <li>TV</li>
             <li>GAMES</li>

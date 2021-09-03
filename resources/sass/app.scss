@@ -10,6 +10,7 @@
 // Colors
 $blue: #0282F9;
 $h-color:#464646;
+$selected: #00A9D9;
 
 // Parts
 @import "header";
@@ -19,4 +20,9 @@ $h-color:#464646;
 
 header, footer, main{
     font-family: 'Open Sans', sans-serif;
+}
+
+
+main{
+    position: relative;
 }

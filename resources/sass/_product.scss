@@ -33,3 +33,38 @@
         color: #fff;
     }
 }
+
+.inner-pub{
+    img{
+        width: 100%;
+    }
+}
+
+.selected-comic{
+    position: absolute;
+    top: -270px;
+    left: 300px;
+    .inner-selected{
+        position: relative;
+        .type{
+            position: absolute;
+            background-color: $selected;
+            top: 10px;
+            text-transform: uppercase;
+            color: #fff;
+            padding: 1px 5px;
+        }
+        .view-gallery{
+            position: absolute;
+            background-color: $selected;
+            bottom: 0px;
+            width: 100%;
+            text-align: center;
+            color: #fff;
+        }
+    }
+}
+
+.artists, .writers{
+    font-size: 10px;
+}
